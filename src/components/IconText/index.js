@@ -1,5 +1,5 @@
 import { StyleSheet, Text, View } from "react-native";
-import { Ionicons, FontAwesome5 } from '@expo/vector-icons';
+import { Ionicons } from '@expo/vector-icons';
 
 export default function IconText(props) {
     return(

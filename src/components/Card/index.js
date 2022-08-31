@@ -6,7 +6,7 @@ import Climazinho from '../../components/Climazinho';
 export default function Card(){
     return (
         <View style={styles.card}>
-            <Clima/>
+            <Clima clima='Weavy Rain' dia='Sunday' data='02 Oct.' temperatura='24°'/>
             <View style={styles.viewFlex}>
                 <Climazinho Top='1' Right='1' icone='partly-sunny-sharp' funcao='WIND' valor='19.2km/j'/>
                 <Climazinho Top='1' icone='thermometer' funcao='FEELS LIKE' valor='30°'/>
