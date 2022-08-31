@@ -8,10 +8,10 @@ export default function Card(){
         <View style={styles.card}>
             <Clima/>
             <View style={styles.viewFlex}>
-                <Climazinho/>
-                <Climazinho/>
-                <Climazinho/>
-                <Climazinho/>
+                <Climazinho Top='1' Right='1' icone='partly-sunny-sharp' funcao='WIND' valor='19.2km/j'/>
+                <Climazinho Top='1' icone='thermometer' funcao='FEELS LIKE' valor='30°'/>
+                <Climazinho Top='1' Right='1' icone='sunny' funcao='INDEX UV' valor='2'/>
+                <Climazinho Top='1' icone='speedometer' funcao='PRESSURE' valor='1014 mbar'/>
             </View>
         </View>
     );
