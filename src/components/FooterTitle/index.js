@@ -1,7 +1,7 @@
 import { View, Text, StyleSheet } from "react-native";
 import { MaterialIcons } from '@expo/vector-icons';
 
-export default function FooterTitle(props){
+export default function FooterTitle(){
     return (
         <View style={styles.container}>
             <Text style={styles.initText}>Today</Text>
