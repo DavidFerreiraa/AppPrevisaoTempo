@@ -16,7 +16,10 @@ export default function FooterTitle(){
 const styles = StyleSheet.create({
     container: {
         flexDirection: 'row',
-        justifyContent: 'space-between'
+        justifyContent: 'space-between',
+        paddingVertical: 10,
+        marginHorizontal: 10
+
     },
     childContainer: {
         flexDirection: 'row',
