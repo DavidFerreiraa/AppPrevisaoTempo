@@ -24,7 +24,11 @@ const styles = StyleSheet.create({
         marginVertical: 50,
         marginHorizontal: 'auto',
         backgroundColor: '#4A73FC',
-        borderRadius: 15
+        borderRadius: 15,
+        shadowColor: '#886943',
+        shadowOffset: {width: 4, height: 4},
+        shadowOpacity: 0.5,
+        shadowRadius: 10
     },
     viewFlex: {
         height: '30%',
