@@ -6,12 +6,12 @@ import Climazinho from '../../components/Climazinho';
 export default function Card(){
     return (
         <View style={styles.card}>
-            <Clima clima='Weavy Rain' dia='Sunday' data={new Date().getMonth()} temperatura='24°'/>
+            <Clima climaIcon=''clima='Weavy Rain' dia='Sunday' data={new Date().getMonth()} temperatura='24°'/>
             <View style={styles.viewFlex}>
-                <Climazinho Top='1' Right='1' icone='partly-sunny-sharp' funcao='WIND' valor='19.2km/j'/>
-                <Climazinho Top='1' icone='thermometer' funcao='FEELS LIKE' valor='30°'/>
-                <Climazinho Top='1' Right='1' icone='sunny' funcao='INDEX UV' valor='2'/>
-                <Climazinho Top='1' icone='speedometer' funcao='PRESSURE' valor='1014 mbar'/>
+                <Climazinho Top='1' Right='1' icone='weather-windy' funcao='WIND' valor='19.2km/j' color='#fff'/>
+                <Climazinho Top='1' icone='thermometer' funcao='FEELS LIKE' valor='30°' color='#fff'/>
+                <Climazinho Top='1' Right='1' icone='white-balance-sunny' funcao='INDEX UV' valor='2' color='#fff'/>
+                <Climazinho Top='1' icone='triangle-wave' funcao='PRESSURE' valor='1014 mbar' color='#fff'/>
             </View>
         </View>
     );

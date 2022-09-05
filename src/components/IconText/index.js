@@ -1,10 +1,10 @@
 import { StyleSheet, Text, View } from "react-native";
-import { Ionicons } from '@expo/vector-icons';
+import { MaterialCommunityIcons } from '@expo/vector-icons';
 
 export default function IconText(props) {
     return(
         <View style={styles.container}>
-            <Ionicons name={props.icone} size={27} color="#fff" style={styles.icone}/>
+            <MaterialCommunityIcons name={props.icone} size={27} color={props.color} style={styles.icone}/>
             <View>
                 <Text style={
                     [styles.texto,

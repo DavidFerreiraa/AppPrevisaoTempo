@@ -1,12 +1,8 @@
 import { View, StyleSheet, Text } from "react-native";
-import { useFonts } from 'expo-font';
 import { MaterialIcons } from '@expo/vector-icons';
 
 
 export default function Header02(props) {
-    const [fontsloaded] = useFonts({
-        'Roboto-black': require('../../../assets/fonts/Roboto/Roboto-Black.ttf')
-    });
     return (
         <View style={styles.flexed}>
             <MaterialIcons name="arrow-back-ios" size={20} color="#fff" />
@@ -26,12 +22,12 @@ const styles = StyleSheet.create({
     textoCidade: {
         color: '#fff',
         fontSize: '1em',
-        fontFamily: 'Roboto',
+        fontFamily: 'monospace',
         fontWeight: 'bold'
     },
     textoEstado: {
         color: '#fff',
-        fontFamily: 'Roboto',
+        fontFamily: 'monospace',
         fontSize: '1em'
     }
 })

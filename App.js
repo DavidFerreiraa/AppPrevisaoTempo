@@ -6,8 +6,7 @@ import Page02 from './src/views/Page02';
 export default function App() {
   return (
     <View>
-      {/* <InitPage/> */}
-      <Page02/>
+      <InitPage/>
       <StatusBar style="auto"/>
     </View>
   );

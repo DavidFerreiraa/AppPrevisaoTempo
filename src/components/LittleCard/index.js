@@ -1,6 +1,6 @@
 import { StyleSheet, View, Text } from "react-native";
 import { useState } from "react";
-import { Ionicons } from '@expo/vector-icons';
+import { MaterialCommunityIcons } from '@expo/vector-icons';
 
 export default function LittleCard(props){
 
@@ -11,7 +11,7 @@ export default function LittleCard(props){
             () => {ativo? setAtivo(false) : setAtivo(true)}
         }>
             <Text style={ativo? styles.horarioOn : styles.horarioOff}>{props.hora}</Text>
-            <Ionicons name={props.clima} size={24} color={ativo? '#fff' : '#0E33FF'} />
+            <MaterialCommunityIcons name={props.clima} size={24} color={ativo? props.color : '#0E33FF'} />
             <Text style={ativo? styles.tituloOn : styles.tituloOff}>{props.texto}</Text>
         </View>
     );

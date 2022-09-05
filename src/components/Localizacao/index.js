@@ -1,10 +1,6 @@
 import { StyleSheet, Text, View } from "react-native";
-import { useFonts } from 'expo-font';
 
 export default function Localizacao(props) {
-    const [fontsloaded] = useFonts({
-        'Roboto-black': require('../../../assets/fonts/Roboto/Roboto-Black.ttf')
-    });
     return (
         <View style={styles.viewFlexed}>
             <Text style={styles.textoLocal1}>{props.cidade},</Text>
@@ -21,12 +17,12 @@ const styles = StyleSheet.create({
     textoLocal1: {
         padding: 3.2,
         fontWeight: "bold",
-        fontFamily: 'Roboto-black',
+        fontFamily: 'monospace',
         fontSize: '1.8em'
     },
     textoLocal2: {
         padding: 3.2,
-        fontFamily: 'Roboto',
+        fontFamily: 'monospace',
         fontSize: '1.8em'
     }
 })

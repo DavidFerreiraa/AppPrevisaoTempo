@@ -12,7 +12,7 @@ export default function Climazinho(props) {
                 borderLeftWidth: Number(props.Left)
             }]
         }>
-            <IconText icone={props.icone} funcao={props.funcao} valor={props.valor}></IconText>
+            <IconText icone={props.icone} funcao={props.funcao} valor={props.valor} color={props.color}></IconText>
         </View>
     );
 }

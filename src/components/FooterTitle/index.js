@@ -7,7 +7,7 @@ export default function FooterTitle(){
             <Text style={styles.initText}>Today</Text>
             <View style={styles.childContainer}>
                 <Text style={styles.secondaryText}>Next 7 Days</Text>
-                <MaterialIcons name="arrow-forward-ios" size={20} color="#A1ADCE" />
+                <MaterialIcons name="arrow-forward-ios" size={20} color="#A1ADCE"/>
             </View>
         </View>
     );

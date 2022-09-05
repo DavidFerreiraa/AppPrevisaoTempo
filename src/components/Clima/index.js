@@ -1,17 +1,14 @@
-import { StyleSheet, Text, View } from "react-native";
-import { Ionicons } from '@expo/vector-icons';
-import { clickProps } from "react-native-web/dist/cjs/modules/forwardedProps";
+import { Image, StyleSheet, Text, View } from "react-native";
 
 export default function Clima(props) {
     return(
         <View style={styles.element}>
-            <Ionicons name='rainy' size={70} color="#fff" style={styles.icone}/>
+            <Image source={require('../../../assets/cloudy.png')} style={styles.icone}/>
             <Text style={styles.titulo}>{props.clima}</Text>
             <Text style={styles.paragrafo}>{props.dia}, {props.data}</Text>
             <Text style={styles.temperaturastyle}>{props.temperatura}</Text>
         </View>
     );
-
 }
 
 
@@ -23,7 +20,9 @@ const styles = StyleSheet.create({
         alignItems: 'center'
     },
     icone: {
-        marginTop: '10%'
+        marginTop: '10%',
+        width: '25%',
+        height: '25%'
     },
     titulo: {
         color: '#fff',
