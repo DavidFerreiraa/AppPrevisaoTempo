@@ -1,14 +1,15 @@
 import { View, StyleSheet, Text} from "react-native";
-import IconText from '../IconText';
+import { MaterialCommunityIcons } from '@expo/vector-icons';
+import IconText from "../IconText";
 
 export default function WeatherDayTemp(props) {
-    
+
     const dayName = ["Domingo", "Segunda", "terça", "quarta", "quinta", "sexta", "sábado"]
     const monName = ["Jan", "Fev", "Mar", "Abr", "Mai", "Jun", "Ago", "Out", "Nov", "Dez"]
 
     return (
         <View style={styles.viewFlex}>
-            <IconText icone={props.icone}></IconText>
+            <IconText icone={props.icone} color={props.color}></IconText>
             <View style={styles.viewFlexChild}>
             <View style={styles.viewFlex}>
                 <Text style={styles.textStrong}>{dayName[props.diaSemana]}, </Text>
