@@ -16,7 +16,7 @@ export default function Localizacao(props) {
 const styles = StyleSheet.create({
     viewFlexed: {
         flexDirection: 'row',
-        marginTop: '10%'
+        marginVertical: '10%'
     },
     textoLocal1: {
         padding: 3.2,

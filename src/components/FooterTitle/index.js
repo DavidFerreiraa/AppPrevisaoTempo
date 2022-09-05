@@ -18,8 +18,8 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         justifyContent: 'space-between',
         paddingVertical: 10,
-        marginHorizontal: 10
-
+        marginHorizontal: '2%',
+        marginVertical: '6%'
     },
     childContainer: {
         flexDirection: 'row',

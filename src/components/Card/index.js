@@ -21,7 +21,6 @@ const styles = StyleSheet.create({
     card: {
         width: '95%',
         height: '50vh',
-        marginVertical: '15%',
         marginHorizontal: 'auto',
         backgroundColor: '#4A73FC',
         borderRadius: 15,
