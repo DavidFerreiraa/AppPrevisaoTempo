@@ -16,19 +16,17 @@ export default function Localizacao(props) {
 const styles = StyleSheet.create({
     viewFlexed: {
         flexDirection: 'row',
-        marginTop: 45
+        marginTop: '10%'
     },
     textoLocal1: {
         padding: 3.2,
         fontWeight: "bold",
-        fontSize: '1.1em',
         fontFamily: 'Roboto-black',
-         fontSize: 30
+        fontSize: '1.8em'
     },
     textoLocal2: {
         padding: 3.2,
-        fontSize: '1.1em',
         fontFamily: 'Roboto',
-         fontSize: 30
+        fontSize: '1.8em'
     }
 })

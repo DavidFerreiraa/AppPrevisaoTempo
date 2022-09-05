@@ -19,11 +19,13 @@ export default function LittleCard(props){
 
 const styles = StyleSheet.create({
     littleCardOn: {
+        borderColor: '#A1ADCE',
+        borderWidth: 1,
         backgroundColor: '#4A73FC',
         height: '94%',
-        width: '12%',
+        width: '17%',
         borderRadius: 15,
-        marginHorizontal: 10,
+        marginHorizontal: '2.5%',
         flexDirection: 'column',
         alignItems: 'center',
         justifyContent: 'center',
@@ -39,14 +41,18 @@ const styles = StyleSheet.create({
         borderWidth: 1,
         backgroundColor: '#fff',
         height: '94%',
-        width: '12%',
+        width: '17%',
         borderRadius: 15,
-        marginHorizontal: 10,
+        marginHorizontal: '2.5%',
         flexDirection: 'column',
         alignItems: 'center',
         justifyContent: 'center',
         gap: 10,
-        padding: 8
+        padding: 8,
+        shadowColor: '#886943',
+        shadowOffset: {width: 2, height: 2},
+        shadowOpacity: 0.5,
+        shadowRadius: 10
     },
     horarioOn: {
         color: '#fff'

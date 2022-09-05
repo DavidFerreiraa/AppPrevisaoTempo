@@ -23,7 +23,7 @@ const styles = StyleSheet.create({
         alignItems: 'center'
     },
     icone: {
-        marginTop: 50
+        marginTop: '10%'
     },
     titulo: {
         color: '#fff',
@@ -34,7 +34,7 @@ const styles = StyleSheet.create({
         fontSize: 12
     },
     temperaturastyle: {
-        marginTop: 15,
+        marginTop: '3%',
         color: '#fff',
         fontSize: 70
     }
